@@ -8,5 +8,5 @@ augroup END
 
 syntax on
 
-colorscheme darkblue
+colorscheme koehler
 
