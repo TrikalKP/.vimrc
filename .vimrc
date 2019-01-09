@@ -10,3 +10,4 @@ syntax on
 
 colorscheme koehler
 
+:map <F5> :setlocal spell! spelllang=en_us
