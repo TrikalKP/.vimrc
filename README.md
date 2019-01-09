@@ -5,9 +5,9 @@ My barebones .vimrc
 
 |Distrobution|command|
 |---|---|
-|Arch/Manjaro|`sudo pacman -S vim`|
-|Fedora/RHEL/CentOS|`sudo dnf install vim`|
-|Ubuntu and Derivatives|`sudo apt-get install vim`|
+|Arch based|`sudo pacman -S vim`|
+|RHEL based|`sudo dnf install vim`|
+|Debian based|`sudo apt-get install vim`|
 
 
 ### After installing Vim create a .vimrc file
