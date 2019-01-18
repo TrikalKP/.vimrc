@@ -14,7 +14,7 @@ What features does it have?
 ---------
 Basic features such as
 
-**Leader key**: *sets space as the leader key*|
+**Leader key**: *sets space as the leader key*
 
 **Line number**: *sets line number to relative number*
 
