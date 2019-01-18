@@ -1,17 +1,33 @@
-# .vimrc
-My barebones .vimrc
+What is it?
+-----
+".vimrc" is the configuration file for vim
+vim is a text editor.
 
-### To make a .vimrc file you would need to install vim(obviously)
+How to use it?
+-------
+Install vim like you would install any other software in your OS.
+Clone this repository and put the file named ".vimrc" in your ~ directory
+alternatively,
+you can download the zip and just put the ".vimrc" in your ~ directory.
 
-|Distrobution|command|
-|---|---|
-|Arch based|`sudo pacman -S vim`|
-|RHEL based|`sudo dnf install vim`|
-|Debian based|`sudo apt-get install vim`|
+What features does it have?
+---------
+Basic features such as
 
+**Leader key**: *sets space as the leader key*|
 
-### After installing Vim create a .vimrc file
+**Line number**: *sets line number to relative number*
 
-`vim ~/.vimrc`
+**Syntax highlighting**: *sets syntax highlighting on*
 
-### Just copy the text in my .vimrc file and have a barebones .vimrc
+**Autocomplete**: *sets autocomplete when you are searching for files in vim*
+
+**Colorscheme**: *sets colorscheme to koehler*
+
+**Spellcheck**: *typing `leader+o` in normal or visual mode checks for spelling errors[en_US only]*
+
+**Navigation markers**: *typing `leader+m` in normal or visual mode sets up a marker <++>
+
+**Navigation**: *typing `space+tab` in or normal or visual mode puts you in insert mode at the next navigation marker marked by <++>*
+
+**Date and time**: *typing `leader+t` in normal or visual mode puts the output of the `date` command.
