@@ -29,3 +29,6 @@
 "	inoremap <leader>t :r !date<CR>
 	vnoremap <leader>t :r !date<CR>
 	map <leader>t :r !date<CR>
+" copy and paste
+	vnoremap <C-c> "*y :let @+=@*<CR>
+	map <C-v> "+P
