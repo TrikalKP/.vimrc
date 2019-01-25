@@ -31,3 +31,5 @@ Basic features such as
 **Navigation**: *typing `space+tab` in or normal or visual mode puts you in insert mode at the next navigation marker marked by <++>*
 
 **Date and time**: *typing `leader+t` in normal or visual mode puts the output of the `date` command.
+
+**Copy and paste**: `Ctrl-c` copies and `Ctrl-v` pastes. Needs GVim to function(You don't have to use GVim though)
