@@ -4,6 +4,7 @@
 " \  \ /  / |  ||   _   _   ||   /    |  |___
 "  \_____/  |__||__| |_| |__||___|     \_____|
 
+"	P L U G I N S	A R E	B L O A T
 
 " sets space as leader key
 	let mapleader =" "
@@ -11,10 +12,11 @@
 	set number relativenumber
 " sets syntax highlighting on 
 	syntax on
+	filetype plugin indent on
 " enable autocomplete
 	set wildmode=longest,list,full
-" sets koehler colorscheme
-	colorscheme koehler
+" sets slate colorscheme
+	colorscheme slate
 " spellcheck
 	map <leader>o :setlocal spell! spelllang=en_us<CR>
 " navigation markers
@@ -32,3 +34,6 @@
 " copy and paste
 	vnoremap <C-c> "*y :let @+=@*<CR>
 	map <C-v> "+P
+" color highlighting(useful in config files)[needs:Colorizer script]
+map <leader>c :ColorHighlight<CR>
+map <leader>x :ColorClear<CR>
