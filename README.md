@@ -22,7 +22,7 @@ Basic features such as
 
 **Autocomplete**: sets autocomplete when you are searching for files in vim
 
-**Colorscheme**: sets colorscheme to koehler
+**Colorscheme**: sets colorscheme to slate
 
 **Spellcheck**: typing `leader+o` in normal or visual mode checks for spelling errors[en_US only]
 
