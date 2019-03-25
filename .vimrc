@@ -37,3 +37,6 @@
 " color highlighting(useful in config files)[needs:Colorizer script]
 map <leader>c :ColorHighlight<CR>
 map <leader>x :ColorClear<CR>
+
+"goyo script
+map <leader>g :Goyo<CR>
