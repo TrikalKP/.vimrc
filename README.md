@@ -35,3 +35,4 @@ Basic features such as
 **Copy and paste**: `Ctrl-c` copies and `Ctrl-v` pastes. Needs GVim to function(You don't have to use GVim though)
 
 **Highlight Hex and other Color Codes**: `leader+c` highlights colors and `leader+x` clears highlights. Needs `Colorizer-0.10.vmb`to function. Open the .vmb file in vim and type `:so %` to enable it. For more information on the script click [here](https://www.vim.org/scripts/script.php?script_id=3963)
+**Goyo**: `leader+g` puts text in a layout that looks similar to what text looks like in a WYSIWYG text editor. Needs `goyo.vim` to work.
