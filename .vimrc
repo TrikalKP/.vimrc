@@ -4,7 +4,7 @@
 " \  \ /  / |  ||   _   _   ||   /    |  |___
 "  \_____/  |__||__| |_| |__||___|     \_____|
 
-"	P L U G I N S	A R E	B L O A T
+
 
 " sets space as leader key
 	let mapleader =" "
